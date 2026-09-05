@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+
+    <!-- Official Sudhanihub Navy Background with rounded squircle corners -->
+    <path
+        android:fillColor="#070E4E"
+        android:pathData="M 52,8 L 204,8 C 228,8 248,28 248,52 L 248,204 C 248,228 228,248 204,248 L 52,248 C 28,248 8,228 8,204 L 8,52 C 8,28 28,8 52,8 Z" />
+
+    <!-- Shopping Cart Wireframe (Crisp White) -->
+    <!-- Handle and main basket contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 64,68 L 84,72 C 89,73 93,78 94,83 L 104,136 C 105,142 110,147 116,147 L 165,147 C 171,147 176,142 178,136 L 188,98" />
+
+    <!-- Cart top rim / shelf -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:pathData="M 94,84 L 162,84" />
+
+    <!-- Cart chassis undercarriage -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 100,143 C 98,153 105,160 114,160 L 166,160 C 176,160 182,153 182,143" />
+
+    <!-- Wheels (White circle rings) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:pathData="M 112,174 A 8,8 0 1,1 112,173.9 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:pathData="M 164,174 A 8,8 0 1,1 164,173.9 Z" />
+
+    <!-- Golden yellow bars inside basket -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 112,102 L 168,102 C 172,102 175,105 175,109 C 175,113 172,116 168,116 L 112,116 C 108,116 105,113 105,109 C 105,105 108,102 112,102 Z" />
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 118,122 L 164,122 C 168,122 171,125 171,129 C 171,133 168,136 164,136 L 118,136 C 114,136 111,133 111,129 C 111,125 114,122 118,122 Z" />
+
+    <!-- Plus Badge Circle (Golden Yellow) -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 186,82 A 22,22 0 1,1 186,81.9 Z" />
+
+    <!-- White Plus Sign -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round"
+        android:pathData="M 186,70 L 186,94 M 174,82 L 198,82" />
+
+    <!-- Sudhani text stylized path in golden yellow -->
+    <!-- S -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 45,214 C 44,212 45,210 47,208 C 49,206 53,205 57,205 C 64,205 69,208 69,212 C 69,216 66,218 61,220 L 56,222 C 53,223 51,225 51,227 C 51,230 54,231 59,231 C 64,231 68,229 70,227 L 73,232 C 70,235 65,237 58,237 C 49,237 44,233 44,228 C 44,223 48,220 53,218 L 57,216 C 60,215 62,213 62,211 C 62,209 60,208 57,208 C 53,208 50,210 49,212 Z" />
+
+    <!-- u -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 75,214 L 81,214 L 81,228 C 81,231 84,233 87,233 C 91,233 94,231 94,228 L 94,214 L 100,214 L 100,228 C 100,234 94,237 87,237 C 80,237 75,234 75,228 Z" />
+
+    <!-- d -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 119,202 L 125,202 L 125,236 L 119,236 L 119,233 C 117,236 113,237 109,237 C 102,237 98,231 98,225 C 98,218 103,213 109,213 C 113,213 117,215 119,218 Z M 105,225 C 105,229 107,232 112,232 C 116,232 119,229 119,225 C 119,221 116,218 112,218 C 107,218 105,221 105,225 Z" />
+
+    <!-- h -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 130,202 L 136,202 L 136,217 C 138,215 142,213 146,213 C 153,213 157,217 157,224 L 157,236 L 151,236 L 151,225 C 151,220 148,218 144,218 C 140,218 136,221 136,225 L 136,236 L 130,236 Z" />
+
+    <!-- a -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 160,225 C 160,218 165,213 172,213 C 176,213 179,215 181,217 L 181,214 L 187,214 L 187,236 L 181,236 L 181,233 C 179,236 175,237 172,237 C 165,237 160,232 160,225 Z M 166,225 C 166,229 169,232 173,232 C 178,232 181,229 181,225 C 181,221 178,218 173,218 C 169,218 166,221 166,225 Z" />
+
+    <!-- n -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 192,214 L 198,214 L 198,217 C 200,215 204,213 208,213 C 215,213 218,217 218,224 L 218,236 L 212,236 L 212,225 C 212,220 209,218 205,218 C 201,218 198,221 198,225 L 198,236 L 192,236 Z" />
+
+    <!-- i -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 223,205 A 3,3 0 1,1 223,204.9 Z M 221,214 L 227,214 L 227,236 L 221,236 Z" />
+
+    <!-- hub text in clean white -->
+    <!-- h -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 230,198 L 235,198 L 235,212 C 237,210 240,208 243,208 C 248,208 251,212 251,218 L 251,230 L 246,230 L 246,219 C 246,215 244,213 241,213 C 238,213 235,215 235,219 L 235,230 L 230,230 Z" />
+
+</vector>
